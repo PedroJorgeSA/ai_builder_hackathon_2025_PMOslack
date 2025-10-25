@@ -7,9 +7,6 @@
     }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "api/slack.py"
-    }
+    { "src": "/slack/events", "dest": "/api/slack.py" }
   ]
 }
