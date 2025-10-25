@@ -1,4 +1,2 @@
-Flask
-requests
-openai
+slack-sdk
 python-dotenv
